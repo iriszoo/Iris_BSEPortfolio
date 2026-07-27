@@ -1,5 +1,5 @@
 # Drawing Robot
-This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a gyroscope, motor encoders, and servo motors to draw designs on paper in different colors. Throughout this project I learned how hardware and software work together by designing circuits, writing Arduino code, debugging electrical issues, and calibrating the robot to move accurately. The biggest challenge has been troubleshooting both the electronics and the code, but each problem has taught me more about engineering and programming.
+This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a gyroscope, motor encoders, and servo motors to draw designs on paper in different colors. Throughout this project I learned how hardware and software work together by designing circuits, writing Arduino code, debugging electrical issues, and calibrating the robot to move accurately. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
 |:--:|:--:|:--:|:--:|
