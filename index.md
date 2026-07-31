@@ -64,25 +64,6 @@ This milestone taught me much more about programming than I expected. I have lea
 
 Getting through milestone 2 was a huge challenge for me: one, because coding was so painstakingly tedious, but mainly because of the many, many, MANY, bugs I faced that were solved by simple solutions everyone overlooks. It wasn't extremely hard, but it ate through my time in the camp. For milestone 3, I plan to add my modification, a way to colors, as well as have the Gcode work properly and consistently. 
 
-<div style="position:relative; max-width:600px; margin:auto;">
-  <img class="carousel-slide" src="images/print1.jpg" style="width:100%; display:block;">
-  <img class="carousel-slide" src="images/print2.jpg" style="width:100%; display:none;">
-  <img class="carousel-slide" src="images/print3.jpg" style="width:100%; display:none;">
-  <button onclick="changeSlide(-1)" style="position:absolute; top:50%; left:5px;">&#10094;</button>
-  <button onclick="changeSlide(1)" style="position:absolute; top:50%; right:5px;">&#10095;</button>
-</div>
-
-<script>
-  let slideIndex = 0;
-  const slides = document.querySelectorAll('.carousel-slide');
-  function showSlide(i) {
-    slides.forEach(s => s.style.display = 'none');
-    slideIndex = (i + slides.length) % slides.length;
-    slides[slideIndex].style.display = 'block';
-  }
-  function changeSlide(n) { showSlide(slideIndex + n); }
-</script>
-
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/goyVb42py1c?si=6O3a13vubs9H2Tlj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
