@@ -77,12 +77,12 @@ Starting the project was on of the hardest part, so after picking up the steam, 
 
 During this milestone I successfully tested the servo motor, DC motors, wheel encoders, gyroscope, voltage regulator (converting 9V battery supply to 6V for powering specific components), and Wi-Fi communication separately before combining everything into one complete circuit. Majority of the hardware was brand new to me, so I learned a lot about how breadboards works, and how each of the components interact within the circuit as well as with the Arduino nano esp 32. I now know each pin has different functins as well, besides just being analog and digital. This milestone gave me a much stronger understanding of electronics and prepared me for the software portion of the project. (My next milestone)
 
-![Wiring Image](<img width="1170" height="1649" alt="IMG_8036" src="https://github.com/user-attachments/assets/15bd0b58-c786-4875-9221-bb56ba6d9862" />)
+![Wiring Image](IMG_7580.jpg)
 
 # Schematics 
-![drawing 1](<img width="2927" height="3990" alt="IMG_8037" src="https://github.com/user-attachments/assets/a5cd7e85-434c-490d-b079-806aa06b6939" />)
+![drawing 1](IMG_7580.jpg)
 initial design for part attachment
-![drawing 2](<img width="4032" height="3024" alt="IMG_7887" src="https://github.com/user-attachments/assets/c4027b71-281d-494e-8e24-88d6f70894f2" />)
+![drawing 2](IMG_7580.jpg)
 ideas for CAD modification
 
 wiring schematic: 
