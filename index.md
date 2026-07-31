@@ -18,8 +18,6 @@ This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a g
 - [Bill of Materials](#bill-of-materials)
 - [Other Resources](#other-resources/examples)
 
-
-  
 # Final Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -64,6 +62,9 @@ This milestone taught me much more about programming than I expected. I have lea
 
 Getting through milestone 2 was a huge challenge for me: one, because coding was so painstakingly tedious, but mainly because of the many, many, MANY, bugs I faced that were solved by simple solutions everyone overlooks. It wasn't extremely hard, but it ate through my time in the camp. For milestone 3, I plan to add my modification, a way to colors, as well as have the Gcode work properly and consistently. 
 
+A carasoul with the 3d prints and stuff: 
+
+
 # First Milestone
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/goyVb42py1c?si=6O3a13vubs9H2Tlj" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -85,9 +86,6 @@ My other drawing maybe:
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
-
-<details>
-<summary>Click to expand the full Arduino code (C++)</summary>
 
 ```c++
 //Note: 209 tick per spin
@@ -1504,7 +1502,6 @@ void parseGcodeLine(String line) {
 }
 
 ```
-</details>
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
