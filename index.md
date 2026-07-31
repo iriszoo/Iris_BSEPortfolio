@@ -5,9 +5,7 @@ This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a g
 |:--:|:--:|:--:|:--:|
 | Iris Z | Piedmont Hills High School | Electrical Engineering | Incoming Sophomore
 
-**Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
-
-![Headstone Image](logo.svg)
+![Headstone Image](Iris Z.heic)
 
 ## Table of Contents
 - [Final Milestone](#final-milestone)
