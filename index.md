@@ -91,7 +91,7 @@ wiring schematic:
 
 # Code
 
-```c++
+```cpp
 //Note: 209 tick per spin
 //count per mm is around 2.02 (1.5-2)
 
