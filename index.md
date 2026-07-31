@@ -91,7 +91,9 @@ wiring schematic:
 
 # Code
 
-```cpp
+<div style="max-height:400px; overflow:auto;">
+
+<pre><code class="language-cpp">
 //Note: 209 tick per spin
 //count per mm is around 2.02 (1.5-2)
 
@@ -1505,7 +1507,9 @@ void parseGcodeLine(String line) {
   }
 }
 
-```
+</code></pre>
+
+</div>
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
