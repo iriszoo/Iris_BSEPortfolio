@@ -40,7 +40,7 @@ During my second milestone, I wrote code to make the breadboard circuit into a f
 
 Assembling the robot wasn't too bad. There were a few notable problems I had to face though. One, finding the perfect height for the glides. Being a 2-wheeled robot, it cannot balance by itself. At the 2 ends of the board (without the wheels) there are glides underneath the board to stabalize the robot. However, if the glides were too tall, the wheels wouldn't create enough friction with the ground to move, but if the glides were too short, there's literally no point in having them. Getting to the right height took meticulous sanding. Two, the motors holders weren't actually holding the robot in place, so the wheels would sometimes steer of course because of a tilt. I used Chase's 3D design to compensate, since it was tighter and properlly secured the wheels. 
 
-![m2 assembled](<img width="4032" height="3024" alt="IMG_7580" src="https://github.com/user-attachments/assets/5364fecb-4e77-4099-b7d9-376efc0cf247" />)
+![m2 assembled](IMG_7580.jpg)
 
 One of the biggest parts of this milestone was creating a Wi-Fi control website hosted directly from the Arduino Nano ESP32. Instead of using Bluetooth, I programmed the robot to generate its own webpage where I could send movement commands and display live information from the robot. I added buttons for driving forward, backward, turning, stopping, adjusting speed, and raising or lowering the pen. I also added a calibration system and displayed the robot status directly on the webpage.
 
@@ -49,7 +49,7 @@ A large amount of time was spent debugging and calibrating the robot. There were
 ![website](<img width="1440" height="900" alt="Screenshot 2026-07-30 at 5 05 52 PM" src="https://github.com/user-attachments/assets/7ec6d40e-1e70-4e6c-bc77-6e542486b57d" />)
 
 By the end of this milestone, the robot was capable of:
-- Driving forward![Uploading Screenshot 2026-07-30 at 5.05.52 PM.png…]()
+- Driving forward!
  and backward
 - Making accurate 90° turns
 - Using the gyroscope to maintain a straight heading
