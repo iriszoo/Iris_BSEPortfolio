@@ -5,7 +5,7 @@ This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a g
 |:--:|:--:|:--:|:--:|
 | Iris Z | Piedmont Hills High School | Electrical Engineering | Incoming Sophomore
 
-![Headstone Image](IMG_8038.jpg)
+![Headstone Image](.jpg)
 
 ## Table of Contents
 - [Final Milestone](#final-milestone)
