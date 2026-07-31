@@ -46,8 +46,11 @@ One of the biggest parts of this milestone was creating a Wi-Fi control website 
 
 A large amount of time was spent debugging and calibrating the robot. There were may times small syntax errors or use of the wrong library caused issues that took me days to fix. For example, switching between analogWrite and digitalWrite might cause the wheels to freeze up, or adding delays on specific Wi-Fi libraries could cause everything to stop running. However, these hurdles I overcame as I program my robot results in a functioning website. The code doesn't include simple movement and turns, but uses an detailed system using the gyroscope and encoder counts to make sure the robot is moving precisely. This required measuring backlash, calculating encoder counts per millimeter, and implementing smoother acceleration and stopping behavior. The code is at the bottom of this webpage in its own section. 
 
+![website](<img width="1440" height="900" alt="Screenshot 2026-07-30 at 5 05 52 PM" src="https://github.com/user-attachments/assets/7ec6d40e-1e70-4e6c-bc77-6e542486b57d" />)
+
 By the end of this milestone, the robot was capable of:
-- Driving forward and backward
+- Driving forward![Uploading Screenshot 2026-07-30 at 5.05.52 PM.png…]()
+ and backward
 - Making accurate 90° turns
 - Using the gyroscope to maintain a straight heading
 - Measuring distance using wheel encoders (used for Gcode)
