@@ -1508,9 +1508,6 @@ void parseGcodeLine(String line) {
 ```
 
 # Bill of Materials
-Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
-Don't forget to place the link of where to buy each component inside the quotation marks in the corresponding row after href =. Follow the guide [here]([url](https://www.markdownguide.org/extended-syntax/)) to learn how to customize this to your project needs. 
-
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
 | Arduino nano esp32 | Main "brain" | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
@@ -1530,7 +1527,7 @@ Don't forget to place the link of where to buy each component inside the quotati
 | AA Battery (x4) | Powers components | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
-My original inspiration is lingib's instructables page. His page is what gave me the boost to start my project off well, and have a general idea of what the circuit and pencil lift contraption should be like. Addionally he provided great insight on the theory of how the code should be written to account for variables such as backlash. 
+My original inspiration is lingib's instructables page. His page is what gave me the boost to start my project off well, and have a general idea of what the circuit and pencil lift contraption should be like. Additionally he provided great insight on the theory of how the code should be written to account for variables such as backlash. 
 - [Instructables page]([https://trashytuber.github.io/YimingJiaBlueStamp/](https://www.instructables.com/Gyro-Controlled-Robot-Plotter/))
   
 I also used the 3D designs of other people for my servo holders, linked below: 
