@@ -5,7 +5,7 @@ This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a g
 |:--:|:--:|:--:|:--:|
 | Iris Z | Piedmont Hills High School | Electrical Engineering | Incoming Sophomore
 
-![Headstone Image](<img width="3024" height="4032" alt="Iris Z" src="https://github.com/user-attachments/assets/db4643d6-27bb-42c7-be6e-c9106df28803" />)
+![Headstone Image](IMG_8038.jpg)
 
 ## Table of Contents
 - [Final Milestone](#final-milestone)
@@ -1513,9 +1513,21 @@ Don't forget to place the link of where to buy each component inside the quotati
 
 | **Part** | **Note** | **Price** | **Link** |
 |:--:|:--:|:--:|:--:|
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
-| Item Name | What the item is used for | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Arduino nano esp32 | Main "brain" | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| BNO055 Sensor Fusion Module| Detects angles | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| L9110 Motor Driver | Controls motors | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| XY-N20 Motor with Encoder (x2) | Powers the wheels | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Sg90 micro servo (x2) | Turns and pushes pencils | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Hexagon Colored Pencils (x3) | Draws | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Misc. Hardware (screws and nuts) | Holds everything in place | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| wires | Connects components | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 7806 Voltage Regulator | Changes 9v to 6v | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 1N4007 Diode (x2) | Part of voltage regulator circuit | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 1nF ceramic capacitors (x2) | Part of voltage regulator circuit | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Toggle Switch | Easily turn on and off | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| Acrylic Sheet | Base of robot | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| 9 volt Battery | Powers components | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
+| AA Battery (x4) | Powers components | $Price | <a href="https://www.amazon.com/Arduino-A000066-ARDUINO-UNO-R3/dp/B008GRTSV6/"> Link </a> |
 
 # Other Resources/Examples
 My original inspiration is lingib's instructables page. His page is what gave me the boost to start my project off well, and have a general idea of what the circuit and pencil lift contraption should be like. Addionally he provided great insight on the theory of how the code should be written to account for variables such as backlash. 
