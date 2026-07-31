@@ -24,9 +24,8 @@ Since my second milestone, my focus has shifted from programming/building the ro
 
 Instead of using a single pen that moves up and down, I designed a rotating pen holder that can hold multiple colored pencils. The goal is to allow the robot to switch between colors while drawing, making more complex and colorful artwork. Designing this modification required me to use onShape to CAD my own model. Since I am low on time, I took time outside of camp to brainstorm a simple and easy way to make a rotating pen tube. The criteria are that the pencils are always needed to be up- unless pushed down to draw, and the tube itself also has to rotate. I came up with a circlish design, which looked at carefully, is basically the same as the original design, but inversed. 
 
-the Design: 
-
-Other designs (servo holders and stuff): 
+![CAD Image](<img width="729" height="561" alt="Screenshot 2026-07-31 at 10 30 00 AM" src="https://github.com/user-attachments/assets/2538f426-2797-483e-8190-6853a982bda5" />)
+![CAD Support](<img width="423" height="434" alt="Screenshot 2026-07-31 at 10 36 05 AM" src="https://github.com/user-attachments/assets/d5a6670c-d4ec-442d-b30a-1c58c7a2520d" />)
 
 I used 2 servos to make the contraption work. The first is attached to the bottom of the spinning tubes, and it can also precisely measure exactly 0-180 to get the pencil to match with the hole in the arcylic board. The other servo uses another 3D printed design I found online to use its horn to push down the pencils. Unfortunately, I overlooked the fact that servos can only rotate to 180 degrees, and not 360. Since my design uses the full circle, one of the pencils would never be used. 
 
@@ -41,7 +40,7 @@ During my second milestone, I wrote code to make the breadboard circuit into a f
 
 Assembling the robot wasn't too bad. There were a few notable problems I had to face though. One, finding the perfect height for the glides. Being a 2-wheeled robot, it cannot balance by itself. At the 2 ends of the board (without the wheels) there are glides underneath the board to stabalize the robot. However, if the glides were too tall, the wheels wouldn't create enough friction with the ground to move, but if the glides were too short, there's literally no point in having them. Getting to the right height took meticulous sanding. Two, the motors holders weren't actually holding the robot in place, so the wheels would sometimes steer of course because of a tilt. I used Chase's 3D design to compensate, since it was tighter and properlly secured the wheels. 
 
-Photo of assembled robot: 
+![m2 assembled](<img width="4032" height="3024" alt="IMG_7580" src="https://github.com/user-attachments/assets/5364fecb-4e77-4099-b7d9-376efc0cf247" />)
 
 One of the biggest parts of this milestone was creating a Wi-Fi control website hosted directly from the Arduino Nano ESP32. Instead of using Bluetooth, I programmed the robot to generate its own webpage where I could send movement commands and display live information from the robot. I added buttons for driving forward, backward, turning, stopping, adjusting speed, and raising or lowering the pen. I also added a calibration system and displayed the robot status directly on the webpage.
 
@@ -75,13 +74,15 @@ Starting the project was on of the hardest part, so after picking up the steam, 
 
 During this milestone I successfully tested the servo motor, DC motors, wheel encoders, gyroscope, voltage regulator (converting 9V battery supply to 6V for powering specific components), and Wi-Fi communication separately before combining everything into one complete circuit. Majority of the hardware was brand new to me, so I learned a lot about how breadboards works, and how each of the components interact within the circuit as well as with the Arduino nano esp 32. I now know each pin has different functins as well, besides just being analog and digital. This milestone gave me a much stronger understanding of electronics and prepared me for the software portion of the project. (My next milestone)
 
-wiring irl: 
+![Wiring Image](<img width="1170" height="1649" alt="IMG_8036" src="https://github.com/user-attachments/assets/15bd0b58-c786-4875-9221-bb56ba6d9862" />)
 
 # Schematics 
-wiring diagram: 
-my drawing ig: 
-My other drawing maybe:
-Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
+![drawing 1](<img width="2927" height="3990" alt="IMG_8037" src="https://github.com/user-attachments/assets/a5cd7e85-434c-490d-b079-806aa06b6939" />)
+initial design for part attachment
+![drawing 2](<img width="4032" height="3024" alt="IMG_7887" src="https://github.com/user-attachments/assets/c4027b71-281d-494e-8e24-88d6f70894f2" />)
+ideas for CAD modification
+
+wiring schematic: 
 
 # Code
 
