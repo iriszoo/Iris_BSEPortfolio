@@ -1,4 +1,5 @@
 # Drawing Robot
+![Arduino](https://img.shields.io/badge/Arduino-00979D?logo=arduino&logoColor=white).
 This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a gyroscope, motor encoders, and servo motors to draw designs on paper in different colors. Throughout this project I learned how hardware and software work together by designing circuits, writing Arduino code, debugging electrical issues, and calibrating the robot to move accurately. 
 
 | **Engineer** | **School** | **Area of Interest** | **Grade** |
@@ -8,6 +9,16 @@ This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a g
 **Replace the BlueStamp logo below with an image of yourself and your completed project. Follow the guide [here](https://tomcam.github.io/least-github-pages/adding-images-github-pages-site.html) if you need help.**
 
 ![Headstone Image](logo.svg)
+
+## Table of Contents
+- [Final Milestone](#final-milestone)
+- [Second Milestone](#second-milestone)
+- [First Milestone](#first-milestone)
+- [Schematics](#schematics)
+- [Code](#code)
+- [Bill of Materials](#bill-of-materials)
+- [Other Resources](#other-resources)
+
   
 # Final Milestone
 
@@ -53,8 +64,24 @@ This milestone taught me much more about programming than I expected. I have lea
 
 Getting through milestone 2 was a huge challenge for me: one, because coding was so painstakingly tedious, but mainly because of the many, many, MANY, bugs I faced that were solved by simple solutions everyone overlooks. It wasn't extremely hard, but it ate through my time in the camp. For milestone 3, I plan to add my modification, a way to colors, as well as have the Gcode work properly and consistently. 
 
-A carasoul with the 3d prints and stuff: 
+<div style="position:relative; max-width:600px; margin:auto;">
+  <img class="carousel-slide" src="images/print1.jpg" style="width:100%; display:block;">
+  <img class="carousel-slide" src="images/print2.jpg" style="width:100%; display:none;">
+  <img class="carousel-slide" src="images/print3.jpg" style="width:100%; display:none;">
+  <button onclick="changeSlide(-1)" style="position:absolute; top:50%; left:5px;">&#10094;</button>
+  <button onclick="changeSlide(1)" style="position:absolute; top:50%; right:5px;">&#10095;</button>
+</div>
 
+<script>
+  let slideIndex = 0;
+  const slides = document.querySelectorAll('.carousel-slide');
+  function showSlide(i) {
+    slides.forEach(s => s.style.display = 'none');
+    slideIndex = (i + slides.length) % slides.length;
+    slides[slideIndex].style.display = 'block';
+  }
+  function changeSlide(n) { showSlide(slideIndex + n); }
+</script>
 
 # First Milestone
 
@@ -77,6 +104,9 @@ My other drawing maybe:
 Here's where you'll put images of your schematics. [Tinkercad](https://www.tinkercad.com/blog/official-guide-to-tinkercad-circuits) and [Fritzing](https://fritzing.org/learning/) are both great resoruces to create professional schematic diagrams, though BSE recommends Tinkercad becuase it can be done easily and for free in the browser. 
 
 # Code
+
+<details>
+<summary>Click to expand the full Arduino code (C++)</summary>
 
 ```c++
 //Note: 209 tick per spin
@@ -1493,6 +1523,7 @@ void parseGcodeLine(String line) {
 }
 
 ```
+</details>
 
 # Bill of Materials
 Here's where you'll list the parts in your project. To add more rows, just copy and paste the example rows below.
