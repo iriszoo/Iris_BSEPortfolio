@@ -77,7 +77,7 @@ Starting the project was on of the hardest part, so after picking up the steam, 
 
 During this milestone I successfully tested the servo motor, DC motors, wheel encoders, gyroscope, voltage regulator (converting 9V battery supply to 6V for powering specific components), and Wi-Fi communication separately before combining everything into one complete circuit. Majority of the hardware was brand new to me, so I learned a lot about how breadboards works, and how each of the components interact within the circuit as well as with the Arduino nano esp 32. I now know each pin has different functins as well, besides just being analog and digital. This milestone gave me a much stronger understanding of electronics and prepared me for the software portion of the project. (My next milestone)
 
-![Wiring Image](<img src="IMG_8036.jpg" width="50">)
+![Wiring Image](IMG_8036.jpg){width=100}
 
 # Schematics 
 ![drawing 1](IMG_8037.jpg)
