@@ -16,7 +16,8 @@ This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a g
 - [Schematics](#schematics)
 - [Code](#code)
 - [Bill of Materials](#bill-of-materials)
-- [Other Resources](#other-resources)
+- [Other Resources](#other-resources/examples)
+
 
   
 # Final Milestone
