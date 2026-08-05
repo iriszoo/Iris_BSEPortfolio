@@ -18,8 +18,7 @@ This project is a two-wheeled drawing robot that uses an Arduino Nano ESP32, a g
 
 # Final Milestone
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/F7M7imOVGug" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
-
+<iframe width="560" height="315" src="https://www.youtube.com/embed/sW2HkCm6_zo?si=BRLBx0_eYBE0P5bP" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 Since my second milestone, my focus has shifted from programming/building the robot to expanding its capabilities through custom mechanical modification. 
 
 Instead of using a single pen that moves up and down, I designed a rotating pen holder that can hold multiple colored pencils. The goal is to allow the robot to switch between colors while drawing, making more complex and colorful artwork. Designing this modification required me to use onShape to CAD my own model. Since I am low on time, I took time outside of camp to brainstorm a simple and easy way to make a rotating pen tube. The criteria are that the pencils are always needed to be up- unless pushed down to draw, and the tube itself also has to rotate. I came up with a circlish design, which looked at carefully, is basically the same as the original design, but inversed. 
